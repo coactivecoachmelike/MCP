@@ -13,8 +13,8 @@ from core.cli import CliApp
 load_dotenv()
 
 # Anthropic Config
-claude_model = os.getenv("CLAUDE_MODEL", "")
-anthropic_api_key = os.getenv("ANTHROPIC_API_KEY", "")
+claude_model = os.getenv("claude-sonnet-4-6")
+anthropic_api_key = os.getenv("ANTHROPIC_API_KEY", "135792468")
 
 
 assert claude_model, "Error: CLAUDE_MODEL cannot be empty. Update .env"
