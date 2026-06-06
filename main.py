@@ -13,7 +13,7 @@ from core.cli import CliApp
 load_dotenv()
 
 # Anthropic Config
-claude_model = os.getenv("claude-sonnet-4-6")
+claude_model = os.getenv("CLAUDE_MODEL","claude-sonnet-4-6")
 anthropic_api_key = os.getenv("ANTHROPIC_API_KEY", "135792468")
 
 
